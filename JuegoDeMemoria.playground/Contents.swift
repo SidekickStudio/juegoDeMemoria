@@ -41,7 +41,7 @@ for n in 0...100{
         }
             
         //- Si el número es impar, imprime: # el número + “impar!!!”
-        else if(n % 1 == 0){
+        else if(n % 2 != 0){
             print("\(n) impar!!!")
         }
     }
